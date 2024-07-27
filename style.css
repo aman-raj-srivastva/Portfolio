@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+}
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Segoe UI';
+}
+.logo img {
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    align-content: center;
+    margin: 0px 10px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 0px 1px rgb(155, 3, 249);
+}
+.logo img:hover {
+    box-shadow: 0px 0px 10px 1px rgb(249, 28, 3);
+}
+.logo {
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+}
+.logo div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.logo div small{
+    color: rgb(177, 177, 177);
+    font-size: small;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 17, 17);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    position: fixed; 
+    z-index: 1000;
+    top: 0; 
+    width: 100%;
+    box-shadow: rgba(85, 1, 133, 0.485) 0px 4px 10px; 
+}
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+nav ul li {
+    display: flex;
+    
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li header a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li header a:hover{
+    color: rgb(199, 57, 255);
+}
+
+.first{
+    padding: 8rem 0rem 5rem 0rem;
+    gap: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 6px 300px 1px rgba(255, 92, 10, 0.382);
+}
+.first img{
+    border-radius: 130px;
+    box-shadow: 0px 0px 300px 5px rgba(150, 1, 214, 0.662);
+}
+.first img:hover{
+    box-shadow: 0px 0px 100px 7px rgba(167, 56, 0, 0.719);
+    
+}
+.first h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.gradient{
+        background-color: #f3ec78;
+        background-image: linear-gradient(45deg, rgb(190, 50, 245), #c93939);  
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+}
+
+
+
+.about{
+    padding: 4rem 2rem 6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    box-shadow: 1300px -200px 700px 5px rgba(255, 92, 10, 0.370);
+}
+.about h1{
+    color: rgb(177, 50, 245);
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: underline;
+        background-color: #f3ec78;
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+}
+.about h2{
+    font-size: 1.5rem;
+}
+
+.projects{
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713129946/nh7nkuxigkj0eqggvosk.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.projects header{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.grid{
+    padding: 0px 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 620;
+    font-size: 25px;
+    border: 4px;
+    border-radius: 10px;
+    background: rgba(52, 35, 138, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 200, 255, 0.3);
+    position: relative;
+    z-index: 1;
+}
+.forbtn{
+    padding-top: 50px; ;
+}
+.item small{
+    font-size: 18px;
+    font-weight: 200;
+}
+.btnblue{
+    background-color: #004692;
+    color:white;
+    font-size: large;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border:none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btngreen{
+    background-color: #007200;
+    color:white;
+    font-size: large;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border:none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact{
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.contact h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.grid2{
+    padding: 0px 90px;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 90px;
+    row-gap: 40px;
+    align-items: center;
+}
+.insta a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 6px 12px 0px;
+    font-weight: 620;
+    font-size: 25px;
+    background: rgba(226, 27, 252, 0.238);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(238, 0, 255, 0.33);
+    text-decoration: none;
+    color: white;
+}
+.linkedin a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 6px 12px 0px;
+    font-weight: 620;
+    font-size: 25px;
+    background: rgba(27, 151, 252, 0.238);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(0, 136, 255, 0.33);
+    text-decoration: none;
+    color: white;
+}
+.github a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 6px 12px 0px;
+    font-weight: 620;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 60px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.33);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.cb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background: rgb(17, 17, 17);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    font-family:serif;
+    padding: 20px 0px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.text header{
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 500;
+}
+.text header div{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #727272;
+    font-family: cursive;
+}
+
+
+.floatimg {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    z-index: 1;
+}
+
+
+.python{
+    position: absolute;
+    bottom: 13px;
+    right: -355px; 
+}
+.html{
+    position: absolute;
+    bottom: 175px;
+    right: -454px; 
+}
+.css{
+    position: absolute;
+    bottom: 155px;
+    right: -219px; 
+}
+.js{
+    position: absolute;
+    bottom: 166px;
+    right: 357px; 
+}
+.android{
+    position: absolute;
+    bottom: 144px;
+    right: 162px; 
+}
+.react{
+    position: absolute;
+    bottom: -20px;
+    right: 263px; 
+}
+.peices{
+    animation: float 3s ease-in-out infinite;
+    position: absolute;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+#text-container {
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 2.5rem;
+font-weight: 500;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  }
+
+#text-container.fade-in {
+    opacity: 1;
+}
+#support.fade-in{
+    opacity: 1;
+}
+
+#support{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+footer{
+    font-size:18px;
+    text-align: center;
+    background-color:rgb(17,17,17);
+    padding:15px 0px;
+}

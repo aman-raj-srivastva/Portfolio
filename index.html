@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1100">
+    <title>Aman Raj Srivastva Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a class="logo" href="https://amanrajsrivastva.blogspot.com/"><img src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1712988070/ygkkpxns4aogukun81ce.png" alt="logo"/><div><header>Personal Portfolio</header><small>Aman Raj Srivastva</small></div></a>
+        
+        <ul>
+            <li><header><a href="#aboutme">About me</a></header></li>
+            <li><header><a href="#project">Projects</a></header></li>
+            <li><header><a href="https://aiconstudiozapps.blogspot.com/">Blogs</a></header></li>
+            <li><header><a href="#contactme">Contact me</a></header></li>
+            <li></li>
+        </ul>
+    </nav>
+    
+    
+    <div class="first">
+
+            <div class="peices">
+                <img class="python" width="50px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713038465/jjkcvoz2kcdjd98vvggv.png" alt="python"/>
+                <img class="js" width="60px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713038465/gtujscljfzpyvhgannv1.png" alt="js"/>
+                <img class="android" width="50px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713038465/jkyr1pc9mxlsbnmysrlg.png" alt="android"/>
+                <img class="react" width="60px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713038465/oy2bexgughwsr7smc3ut.png" alt="react"/>
+                <img class="html" width="50px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713038465/gfryaggcffy0hlbxsxgc.png" alt="html"/>
+                <img class="css" width="50px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713038465/erpcylixx535oille8pz.png" alt="css"/>
+            </div>
+
+        
+        <img width="250rem" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1712988070/ygkkpxns4aogukun81ce.png" alt="Aman Raj Srivastva">
+        <h1>Namaste 🙏, my name is <span class="gradient">Aman Raj Srivastva</span></h1>
+
+
+        <div>
+            <div id="text-container">I am an Artificial Intelligence enthusiast.</div>
+            <div id="support">Python, Tensorflow, LLMs</div> 
+        </div>
+
+        <script>
+            const sentences = ["I am an Artificial Intelligence enthusiast.","I am a ML Python developer.","I am a Software programmer.","I am a web developer.","I am an app developer."]
+            const support =["Machine Learning, Data Sciences, Deep Learning, NLP","TensorFlow, PyTorch, scikit-learn","C, C++, Java, OOPs, DSA","HTML CSS Javascript, MERN-stack [learning]","Java, React Native [learning]"]
+            const textContainer = document.getElementById('text-container');
+            const textSupport = document.getElementById('support');
+            let currentIndex = 0;
+            function animateText() { 
+                textContainer.classList.remove('fade-in');
+                textSupport.classList.remove('fade-in');
+              setTimeout(() => {
+                textContainer.textContent = sentences[currentIndex];
+                textSupport.textContent = support[currentIndex];
+                
+                textContainer.classList.add('fade-in');
+                textSupport.classList.add('fade-in');
+                currentIndex = (currentIndex + 1) % sentences.length;
+              }, 500);
+            }
+            animateText();
+            setInterval(animateText, 3000);
+        </script>
+
+
+    </div>
+    <div class="about" id="aboutme">
+        <h1>I am a Machine Learning Engineer</h1>
+        <h2>A student pursuing a Bachelor's degree in Artificial Intelligence and Machine Learning at Vivekananda Institute of Technology, Delhi.<br> Passionate about leveraging AI to solve real-world challenges, I'm eager to contribute my skills and knowledge to innovative projects and collaborative endeavors.I'm really into Deep Neural Networks and Generative AI because it feels like magic to see how a basic binary machine can do so much.</h3>
+    </div>
+
+    <div class="projects" id="project">
+        <header>Projects</header>
+        <div class="container">
+            <section class="grid">
+                <div class="item"><header>UltraEdit Clone</header><small>Clone of UltraEdit Website using basic html, css and no javascript.</small>
+                    <div class="forbtn">
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone">
+                            <button class="btnblue">Check on GitHub</button>
+                        </a>
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone/archive/refs/heads/main.zip">
+                            <button class="btngreen">Download Source Code</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item"><header>WallPulse</header><small>An AI wallpaper app with ringtones available on play store.</small>
+                    <div class="forbtn">
+                        <a href="https://play.google.com/store/apps/details?id=com.aicon.wallpulse">
+                            <button class="btnblue">Check on Play store</button>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.aicon.wallpulse">
+                            <button class="btngreen">Download App</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item"><header>test</header><small>test description</small>
+                    <div class="forbtn">
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone">
+                            <button class="btnblue">Check on GitHub</button>
+                        </a>
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone/archive/refs/heads/main.zip">
+                            <button class="btngreen">Download Source Code</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item"><header>test</header><small>test description</small>
+                    <div class="forbtn">
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone">
+                            <button class="btnblue">Check on Hugging Face</button>
+                        </a>
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone/archive/refs/heads/main.zip">
+                            <button class="btngreen">Download Source Code</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="item"><header>test</header><small>test description</small>
+                    <div class="forbtn">
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone">
+                            <button class="btnblue">Check on Hugging Face</button>
+                        </a>
+                        <a href="https://github.com/aman-raj-srivastva/UltraEdit-Clone/archive/refs/heads/main.zip">
+                            <button class="btngreen">Download Source Code</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+    <div class="contact" id="contactme">
+        <header>Contact Information</header>
+        <h1>You can contact me on the following sites</h1>
+        <section class="grid2">
+            <div class="github">
+                <a href="https://github.com/aman-raj-srivastva/">
+                    <div><img src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713020886/sbm3f9lrh3mcd4ua87bv.png" alt="github"></div>/aman-raj-srivastva
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/aman-raj-srivastva/">
+                <div><img src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713020886/wxtyoym1kqbj5ltjqrsi.png" alt="linkedin"></div>/aman-raj-srivastva  
+                </a>
+            </div>
+            <div class="insta">
+                <a href="https://www.instagram.com/imarsrivastva/">
+                    <div><img src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713020886/r5mdpbgqq9op7httvlqd.png" alt="instagram"></div>/imarsrivastva
+                </a>
+            </div>
+            <div class="github">
+                <a href="mailto:srivastvaamanraj0@gmail.com">
+                    <div><img src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713020886/hed6vrcvf1ayrcn30wjz.png" alt="gmail"></div>/srivastvaamanraj0
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>&#10024;Designed and developed by Aman Raj Srivastva🧑&#8205;💻</footer>
+
+
+    <img class="floatimg" width="150px" src="https://res.cloudinary.com/dc3t0ei2e/image/upload/v1713030274/aq4bzy1oo2bja4bbfwvq.png" alt="AmanSign">
+</body>
+</html>
